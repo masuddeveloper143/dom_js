@@ -16,7 +16,7 @@
             autem? Excepturi, assumenda!</p>
     </header>
     <main>
-        <section>
+        <section class="containerli">
             <h1>my awsome dom</h1>
             <ul>
                 <li>learning</li>
@@ -51,10 +51,28 @@
     </main>
     <script src="dom.js"></script>
     <script>
+// ------------------------------------------------------------------------------------------------------------
+        // queryselectorall
+
+        // document.querySelectorAll('#fruits-title')
+
+        let someLi = document.querySelectorAll(".containerli li");
+        console.log(someLi);
+        for(let some of someLi){
+            console.log(some);
+        }
+
+        let someLi = document.querySelectorAll(".containerli li");
+        console.log(someLi);
+        for(let some of someLi){
+            console.log(some.innerText);
+        }
+
+// ------------------------------------------------------------------------------------------------------------
 
 
-        let fruitsTitele = document.getElementById('fruits-title');
-        fruitsTitele.innerText = 'chacnge the text';
+        // let fruitsTitele = document.getElementById('fruits-title');
+        // fruitsTitele.innerText = 'chacnge the text';
 
         // let places = document.getElementsByClassName('inportent-places');
         // for (let place of places) {
