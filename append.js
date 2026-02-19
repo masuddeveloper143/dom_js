@@ -10,4 +10,10 @@ placeList.appendChild(li);
 
 
 let maincontainer = document.getElementById('maincontainer');
-console.log(maincontainer);
+// console.log(maincontainer);
+let section = document.createElement('section');
+let h1 = document.createElement('h1');
+h1.innerText = 'section';
+section.appendChild(h1);
+
+maincontainer.appendChild(section);
