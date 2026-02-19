@@ -1,6 +1,6 @@
 // let mainSection = document.getElementById("section");
-
-let main = document.createElement('main-container');
+// ---------------------------------------------------------------------------------------
+let main = document.getElementById('main-container');
 let section = document.createElement('section');
 section.innerHTML = `
 
@@ -16,3 +16,6 @@ section.innerHTML = `
 `
 
 main.appendChild(section);
+
+
+// ---------------------------------------------------------------------------------------------
