@@ -28,5 +28,6 @@ let placesContainer = document.getElementById('placesilikevisit');
 
 placesContainer.classList.add('text-center');
 
+placesContainer.classList.remove('')
 
 
