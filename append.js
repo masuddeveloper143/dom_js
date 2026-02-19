@@ -6,3 +6,8 @@ li.innerText = 'you know who I am i';
 
 // 3. add the child 
 placeList.appendChild(li);
+
+
+
+let maincontainer = document.getElementById('maincontainer');
+console.log(maincontainer);
