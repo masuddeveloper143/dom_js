@@ -43,5 +43,21 @@ maincontainer.appendChild(section);
 
 // --------------------------------------------------------------------------------------------------------
 
+// set innerHTML  directly 
+
+let sectionDress = document.createElement('section');
+sectionDress.innerHTML = `
+<h1>my dress section</h1>
+
+<ul>
+<li>T-shirt</li>
+<li>shirt</li>
+<li>pent</li>
+
+</ul>
+`
+maincontainer.appendChild(sectionDress);
+
+// ---------------------------------------------------------------------------------------------
 
 
