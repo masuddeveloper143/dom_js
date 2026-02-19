@@ -26,8 +26,8 @@ for (let section of sections) {
 
 let placesContainer = document.getElementById('placesilikevisit');
 
+placesContainer.classList.add('text-center');
 placesContainer.classList.remove('text-center');
-
-placesContainer.classList.remove('text-color');
+placesContainer.classList.add('text-color');
 
 
