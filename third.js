@@ -1,8 +1,8 @@
-let main = document.getElementById("main-container");
+// let mainSection = document.getElementById("section");
 
-let section = document.createElement('section');
+let mainSection = document.createElement('section');
 
-section.innerHTML = `
+mainSection.innerHTML = `
 
 <h1> my dynamic section <h1/>
 <p>extra text added inside petagreph <p/>
@@ -15,4 +15,4 @@ section.innerHTML = `
 <ul/>
 `
 
-main.appendChild(section);
+mainSection.appendChild(section);
