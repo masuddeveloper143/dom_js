@@ -1,6 +1,8 @@
 // let mainSection = document.getElementById("section");
 
-let mainSection = document.createElement('section');
+let main = document.createElement('main-container');
+let section = document.createElement('section');
+
 
 mainSection.innerHTML = `
 
