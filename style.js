@@ -24,5 +24,9 @@ for (let section of sections) {
 
 // placesId.style.backgroundColor = 'yellow';
 
-let placesContainer = 
+let placesContainer = document.getElementById('placesilikevisit');
+
+placesContainer.classList.add('yellow');
+
+
 
