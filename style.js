@@ -18,3 +18,9 @@ for (let section of sections) {
     section.style.paddingLeft = '7px';
     section.style.backgroundColor = 'lightgray';
 }
+
+
+// let placesId = document.getElementById('placesilikevisit');
+
+// placesId.style.backgroundColor = 'yellow';
+
