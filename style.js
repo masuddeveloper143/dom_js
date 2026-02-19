@@ -24,3 +24,5 @@ for (let section of sections) {
 
 // placesId.style.backgroundColor = 'yellow';
 
+let placesContainer = 
+

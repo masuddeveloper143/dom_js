@@ -9,3 +9,7 @@
 .inportent-places {
     color: orange;
 }
+
+.yellow-bg{
+    background-color: yellow !important;
+}
