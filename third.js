@@ -2,19 +2,17 @@
 
 let main = document.createElement('main-container');
 let section = document.createElement('section');
+section.innerHTML = `
 
-
-mainSection.innerHTML = `
-
-<h1> my dynamic section <h1/>
-<p>extra text added inside petagreph <p/>
+<h1> my dynamic section</h1>
+<p>extra text added inside petagreph </p>
 <ul> 
-<li>first item<li/>
-<li>second item<li/>
-<li>tihrd item<li/>
-<li>four item<li/>
-<li>fuve item<li/>
+<li>first item</li>
+<li>second item</li>
+<li>tihrd item</li>
+<li>four item</li>
+<li>fuve item</li>
 <ul/>
 `
 
-mainSection.appendChild(section);
+main.appendChild(section);
