@@ -2,8 +2,15 @@
 // console.log(section);
 
 
+// let sections = document.querySelectorAll('section');
+
+// for (let section of sections) {
+//     console.log(section);
+// }
+
+
 let sections = document.querySelectorAll('section');
 
-for(let section of sections){
-    
+for (let section of sections) {
+    console.log(section);
 }
