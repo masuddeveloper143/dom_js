@@ -6,3 +6,5 @@ console.log(allli);
 let sectionTitle = document.getElementsByClassName('section-title');
 console.log(sectionTitle);
 
+let secondSection = document.getElementById('second-section');
+console.log(secondSection);
