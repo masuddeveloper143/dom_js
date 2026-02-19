@@ -3,3 +3,4 @@ let placeList = document.getElementById('places-list');
 
 let li = document.createElement('li');
 li.innerText('who are you');
+placeList.append(li);
