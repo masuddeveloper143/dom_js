@@ -26,7 +26,7 @@ for (let section of sections) {
 
 let placesContainer = document.getElementById('placesilikevisit');
 
-placesContainer.classList.add('yellow-bg');
+placesContainer.classList.add('text-center');
 
 
 
