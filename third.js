@@ -1,4 +1,4 @@
-let main = document.getElementById("maincontainer");
+let main = document.getElementById("main-container");
 
 let section = document.createElement('section');
 
