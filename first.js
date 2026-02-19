@@ -11,3 +11,8 @@ let secondSection = document.getElementById('second-section');
 
 secondSection.style.color = 'violet';
 secondSection.style.background = 'yellow'
+
+
+
+// document.querySelector
+// document.querySelectorAll
